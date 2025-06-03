@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>09.02.01 - Компьютерные системы и комплексы - Фотогалерея</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/gallery.css">
+</head>
+<body>
+    <div class="background-image"></div>
+    <div class="wrapper">
+           <header>
+      <nav class="container">
+        <div class="nav-logo">
+          <img src="img\hat.png" alt="Логотип УИПК" class="logo">
+          <span class="header-title">УИПК<br>Угличский колледж</span>
+        </div>
+        <ul>
+          <li><a href="index.html">Главная</a></li>
+          <li><a href="achiev.html">Достижения</a></li>
+          <li class="active"><a href="gallery.html">Фотогалерея</a></li>
+          <li><a href="act.html">Нормативные акты</a></li>
+        </ul>
+      </nav>
+    
+    <nav class="container">
+      <ul>
+      </ul>
+    </nav>
+  </header>
+
+        <main class="container">
+            <div class="content">
+                <div class="gallery">
+                    <div class="photo"><img src="galleryimg/1.jpg" alt="Фото 1" onclick="openModal(this)"></div>
+                    <div class="photo"><img src="galleryimg/2.jpg" alt="Фото 2" onclick="openModal(this)"></div>
+                    <div class="photo"><img src="galleryimg/3.jpg" alt="Фото 3" onclick="openModal(this)"></div>
+                    <div class="photo"><img src="galleryimg/4.jpg" alt="Фото 4" onclick="openModal(this)"></div>
+                    <div class="photo"><img src="galleryimg/5.jpg" alt="Фото 5" onclick="openModal(this)"></div>
+                    <div class="photo"><img src="galleryimg/6.jpg" alt="Фото 6" onclick="openModal(this)"></div>
+                    <div class="photo"><img src="galleryimg/7.jpg" alt="Фото 7" onclick="openModal(this)"></div>
+                    <div class="photo"><img src="galleryimg/8.jpg" alt="Фото 8" onclick="openModal(this)"></div>
+                    <div class="photo"><img src="galleryimg/9.jpg" alt="Фото 9" onclick="openModal(this)"></div>
+                    <div class="photo"><img src="galleryimg/10.jpg" alt="Фото 10" onclick="openModal(this)"></div>
+                    <div class="photo"><img src="galleryimg/11.jpg" alt="Фото 11" onclick="openModal(this)"></div>
+                    <div class="photo"><img src="galleryimg/12.jpg" alt="Фото 12" onclick="openModal(this)"></div>
+                    <div class="photo"><img src="galleryimg/13.jpg" alt="Фото 13" onclick="openModal(this)"></div>
+                    <div class="photo"><img src="galleryimg/14.jpg" alt="Фото 14" onclick="openModal(this)"></div>
+                    <div class="photo"><img src="galleryimg/15.jpg" alt="Фото 15" onclick="openModal(this)"></div>
+                    <div class="photo"><img src="galleryimg/16.jpg" alt="Фото 16" onclick="openModal(this)"></div>
+                    <div class="photo"><img src="galleryimg/17.jpg" alt="Фото 17" onclick="openModal(this)"></div>
+                    <div class="photo"><img src="galleryimg/18.jpg" alt="Фото 18" onclick="openModal(this)"></div>
+                    <div class="photo"><img src="galleryimg/19.jpg" alt="Фото 19" onclick="openModal(this)"></div>
+                    <div class="photo"><img src="galleryimg/20.jpg" alt="Фото 20" onclick="openModal(this)"></div>
+                    <div class="photo"><img src="galleryimg/21.jpg" alt="Фото 21" onclick="openModal(this)"></div>
+                    <div class="photo"><img src="galleryimg/22.jpg" alt="Фото 22" onclick="openModal(this)"></div>
+                    <div class="photo"><img src="galleryimg/23.jpg" alt="Фото 23" onclick="openModal(this)"></div>
+                    <div class="photo"><img src="galleryimg/24.jpg" alt="Фото 24" onclick="openModal(this)"></div>
+                    <div class="photo"><img src="galleryimg/25.jpg" alt="Фото 25" onclick="openModal(this)"></div>
+                    <div class="photo"><img src="galleryimg/26.jpg" alt="Фото 26" onclick="openModal(this)"></div>
+                    <div class="photo"><img src="galleryimg/27.jpg" alt="Фото 27" onclick="openModal(this)"></div>
+                    <div class="photo"><img src="galleryimg/28.jpeg" alt="Фото 28" onclick="openModal(this)"></div>
+                    <div class="photo"><img src="galleryimg/29.jpeg" alt="Фото 29" onclick="openModal(this)"></div>
+                </div>
+            </div>
+        </main>
+
+        <!-- Модальное окно -->
+        <div id="myModal" class="modal">
+            <span class="close" onclick="closeModal()">&times;</span>
+            <img class="modal-content" id="modalImg">
+            <div class="caption" id="caption"></div>
+        </div>
+
+        <footer>
+   
+  
+      <div class="footer-content">
+        <p>Угличский индустриально-педагогический колледж<br>
+        Специальность 09.02.01<br>
+        Подготовка квалифицированных специалистов в области разработки, настройки и обслуживания компьютерных систем и комплексов в УИПК.</p>
+        <ul class="footer-links">
+          <li><a href="index.html">Главная</a></li>
+          <li><a href="achiev.html">Достижения</a></li>
+          <li><a href="gallery.html">Фотогалерея</a></li>
+          <li><a href="act.html">Нормативные акты</a></li>
+        </ul>
+        <p>+7 (48532) 2-22-60<br>
+        <a href="mailto:upk.uglich@yarregion.ru">upk.uglich@yarregion.ru</a><br>
+        152615, Ярославская область, г. Углич, ул. Академика Опарина, д. 2</p>
+      </div>
+      <div class="container">
+      &copy; 2024 Угличский индустриально-педагогический колледж. Специальность 09.02.01 «Компьютерные системы и комплексы».
+    </div>
+    </footer>
+    
+</div>
+</body>
+</html>
+
+
+    <script>
+        // Функция для открытия модального окна
+        function openModal(img) {
+            var modal = document.getElementById("myModal");
+            var modalImg = document.getElementById("modalImg");
+            var captionText = document.getElementById("caption");
+            
+            modal.style.display = "block";
+            modalImg.src = img.src;
+            captionText.innerHTML = img.alt;
+            
+            // Добавляем класс для плавного появления
+            setTimeout(function() {
+                modal.classList.add("show");
+            }, 10);
+        }
+
+        // Функция для закрытия модального окна
+        function closeModal() {
+            var modal = document.getElementById("myModal");
+            modal.classList.remove("show");
+            
+            // Ждем завершения анимации перед скрытием
+            setTimeout(function() {
+                modal.style.display = "none";
+            }, 300);
+        }
+
+        // Закрытие при клике вне изображения
+        window.onclick = function(event) {
+            var modal = document.getElementById("myModal");
+            if (event.target == modal) {
+                closeModal();
+            }
+        }
+    </script>
+</body>
+</html>
