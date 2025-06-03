@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>09.02.01 - Компьютерные системы и комплексы - Достижения</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/achiev.css">
+    <style>
+        /* Анимации */
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        .fade-in {
+            animation: fadeIn 1s ease-in-out;
+            opacity: 1;
+        }
+
+        .achievement-card {
+            animation: fadeIn 1.2s ease-in-out;
+        }
+
+        .achievement-images img {
+            transition: transform 0.3s ease;
+        }
+
+        .achievement-images img:hover {
+            transform: scale(1.05);
+        }
+
+        /* Шрифты */
+        body {
+            font-family: 'Roboto', sans-serif;
+        }
+
+        h1, h2, h3 {
+            font-weight: 700;
+        }
+
+        p, ul, li {
+            font-weight: 400;
+        }
+
+        nav a {
+            font-weight: 500;
+        }
+
+        /* Дополнительная адаптация */
+        @media (max-width: 768px) {
+            .achievement-card {
+                flex-direction: column;
+            }
+
+            .achievement-images {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="background-image"></div>
+    <div class="wrapper">
+         <header>
+      <nav class="container fade-in">
+        <div class="nav-logo">
+          <img src="img\hat.png" alt="Логотип УИПК" class="logo">
+          <span class="header-title">УИПК<br>Угличский колледж</span>
+        </div>
+        <ul>
+          <li><a href="index.html">Главная</a></li>
+          <li class="active"><a href="achiev.html">Достижения</a></li>
+          <li><a href="gallery.html">Фотогалерея</a></li>
+          <li><a href="act.html">Нормативные акты</a></li>
+        </ul>
+      </nav>
+    </header>
+
+        <main class="container">
+            <div class="content">
+                <div class="achievements">
+                    <div class="achievement-card">
+                        <div class="achievement-images">
+                            <img src="img/serega.jpg" alt="Экскурсия на предприятие">
+                            <img src="img/serega2.jpg" alt="Экскурсия на предприятие">
+                        </div>
+                        <div class="achievement-text">
+                            <h2>Экскурсия на предприятие ООО «Фирма «Радиал»</h2>
+                            <p>
+                                23 октября студенты 44К группы специальности «Компьютерные системы и комплексы» в рамках учебной практики побывали на экскурсии на предприятии ООО «Фирма «Радиал».<br><br>
+                                ООО «Фирма Радиал» – крупнейший российский разработчик и производитель антенно-фидерного оборудования для профессиональной УКВ и КВ радиосвязи. На рынке с 1997 года.<br><br>
+                                Основной продукцией являются антенны, фильтры, дуплексеры, комбайнеры, приёмные распредпанели и преселекторы. Все эти элементы являются основой для формирования сложных антенных комплексов многоканальных ретрансляторов.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="achievement-card reverse">
+                        <div class="achievement-images">
+                            <img src="img/ticket1.jpg" alt="Билет в будущее">
+                            <img src="img/ticket2.jpg" alt="Билет в будущее">
+                            <img src="img/ticket3.jpg" alt="Билет в будущее">
+                        </div>
+                        <div class="achievement-text">
+                            <h2>Билет в будущее</h2>
+                            <p>
+                                16 ноября наш колледж продолжил участие в проекте "Билет в будущее". Сегодня учащиеся 8 класса МОУ СРШ №3 посетили профессиональную пробу и попробовали себя в качестве графических дизайнеров.<br><br>
+                                Преподаватель специальности "Компьютерные системы и комплексы" Смирнов Евгений Анатольевич рассказал школьникам об этой увлекательной творческой профессии. Ребята попробовали редактировать изображения в программе "Фотошоп", учились создавать визуальные эффекты и корректировать фотографии.<br><br>
+                                Встреча получилась интересной и полезной. Желаем школьникам удачи в выборе будущей профессии!
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="achievement-card">
+                        <div class="achievement-images">
+                            <img src="img/student1.jpg" alt="Региональная конференция">
+                        </div>
+                        <div class="achievement-text">
+                            <h2>Студенты колледжа приняли участие в региональной конференции</h2>
+                            <p>
+                                23 марта на базе Ярославского градостроительного колледжа была организована региональная студенческая конференция, в которой приняли участие наши студенты.<br><br>
+                                Конференция "От идеи – к достижению и инновации" собрала лучших студентов региона для обмена опытом и презентации своих проектов.<br><br>
+                                Наши студенты представили проекты в области компьютерных систем и получили высокую оценку жюри.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="achievement-card reverse">
+                        <div class="achievement-images">
+                            <img src="img/red1.jpg" alt="Ярмарка трудоустройства">
+                            <img src="img/red2.jpg" alt="Ярмарка трудоустройства">
+                        </div>
+                        <div class="achievement-text">
+                            <h2>Всероссийская ярмарка трудоустройства 2023</h2>
+                            <p>
+                                14 апреля на базе Молодёжного центра «Солнечный» прошёл первый день регионального этапа Всероссийской ярмарки трудоустройства «Работа России Время возможностей».<br><br>
+                                Ярмарка трудоустройства – это комплексное мероприятие, где участники могли пройти профориентацию, поучаствовать в дискуссиях, мастер-классах, тренингах, встретиться со специалистами кадровых служб ключевых организаций области, а также узнать о программах обучения.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="achievement-card">
+                        <div class="achievement-images">
+                            <img src="img/graf1.jpg" alt="Графический дизайн">
+                            <img src="img/graf2.jpg" alt="Графический дизайн">
+                            <img src="img/graf3.jpg" alt="Графический дизайн">
+                        </div>
+                        <div class="achievement-text">
+                            <h2>Графический дизайн для школьников</h2>
+                            <p>
+                                30 ноября наш колледж продолжил участие в проекте "Билет в будущее". Сегодня учащиеся МОУ СРШ №5 посетили профессиональную пробу и попробовали себя в качестве графических дизайнеров.<br><br>
+                                Преподаватель специальности "Компьютерные системы и комплексы" Смирнов Евгений Анатольевич рассказал школьникам об этой увлекательной творческой профессии. Ребята попробовали создать рекламный баннер в программе "Фотошоп".<br><br>
+                                Школьники с интересом выполняли предложенное задание и сохранили на память получившиеся работы.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+
+       <footer class="fade-in">
+      <div class="footer-content">
+        <p>Угличский индустриально-педагогический колледж<br>
+        Специальность 09.02.01<br>
+        Подготовка квалифицированных специалистов в области разработки, настройки и обслуживания компьютерных систем и комплексов в УИПК.</p>
+        <ul class="footer-links">
+          <li><a href="index.html">Главная</a></li>
+          <li><a href="achiev.html">Достижения</a></li>
+          <li><a href="gallery.html">Фотогалерея</a></li>
+          <li><a href="act.html">Нормативные акты</a></li>
+        </ul>
+        <p>+7 (48532) 2-22-60<br>
+        <a href="mailto:upk.uglich@yarregion.ru">upk.uglich@yarregion.ru</a><br>
+        152615, Ярославская область, г. Углич, ул. Академика Опарина, д. 2</p>
+      </div>
+      <div class="container">
+      &copy; 2025 Угличский индустриально-педагогический колледж. Специальность 09.02.01 «Компьютерные системы и комплексы».
+    </div>
+    </footer>
+</div>
+</body>
+</html>

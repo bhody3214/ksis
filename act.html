@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>09.02.01 - Нормативные акты</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/act.css">
+    <style>
+        /* Анимации */
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        .fade-in {
+            animation: fadeIn 1s ease-in-out;
+            opacity: 1;
+        }
+
+        .document-card, .competency-card, .timeline-content, .implementation {
+            animation: fadeIn 1.2s ease-in-out;
+        }
+
+        .competency-card:hover {
+            transform: translateY(-5px);
+        }
+
+        /* Шрифты */
+        body {
+            font-family: 'Roboto', sans-serif;
+        }
+
+        h1, h2, h3 {
+            font-weight: 700;
+        }
+
+        p, ul, li {
+            font-weight: 400;
+        }
+
+        nav a {
+            font-weight: 500;
+        }
+
+        /* Дополнительная адаптация */
+        @media (max-width: 768px) {
+            .competencies-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="background-image"></div>
+    <div class="wrapper">
+         <header>
+      <nav class="container fade-in">
+        <div class="nav-logo">
+          <img src="img\hat.png" alt="Логотип УИПК" class="logo">
+          <span class="header-title">УИПК<br>Угличский колледж</span>
+        </div>
+        <ul>
+          <li><a href="index.html">Главная</a></li>
+          <li><a href="achiev.html">Достижения</a></li>
+          <li><a href="gallery.html">Фотогалерея</a></li>
+          <li class="active"><a href="act.html">Нормативные акты</a></li>
+        </ul>
+      </nav>
+    </header>
+
+        <main class="container">
+            <div class="hero fade-in">
+                <div class="hero-info">
+                    <h2>09.02.01</h2>
+                    <h1>Программа учебной практики</h1>
+                    <p>Специальность "Компьютерные системы и комплексы"</p>
+                </div>
+            </div>
+
+            <section class="dark-bar fade-in">
+                <div class="container">
+                    <h2>Паспорт программы</h2>
+                </div>
+            </section>
+
+            <div class="content fade-in">
+                <div class="document-card">
+                    <h3>Область применения</h3>
+                    <p>Программа учебной практики является частью основной профессиональной образовательной программы в соответствии с ФГОС по специальности 09.02.01 "Компьютерные системы и комплексы".</p>
+                    
+                    <h4>Виды профессиональной деятельности:</h4>
+                    <ul>
+                        <li>Проектирование цифровых систем</li>
+                        <li>Проектирование управляющих программ</li>
+                        <li>Техническое обслуживание и ремонт</li>
+                        <li>Выполнение работ по профессии Наладчик технологического оборудования</li>
+                    </ul>
+                </div>
+            </div>
+
+            <section class="dark-bar fade-in">
+                <div class="container">
+                    <h2>Компетенции</h2>
+                </div>
+            </section>
+
+            <div class="content fade-in">
+                <div class="competencies-grid">
+                    <div class="competency-card">
+                        <h3>Общие компетенции</h3>
+                        <ul>
+                            <li>Выбор способов решения профессиональных задач</li>
+                            <li>Использование современных информационных технологий</li>
+                            <li>Профессиональное и личностное развитие</li>
+                            <li>Эффективное взаимодействие в команде</li>
+                            <li>Соблюдение экологических стандартов и безопасности</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="competency-card">
+                        <h3>Профессиональные компетенции</h3>
+                        <ul>
+                            <li>Анализ требований технического задания</li>
+                            <li>Разработка схем электронных устройств</li>
+                            <li>Прототипирование цифровых систем</li>
+                            <li>Разработка и отладка программного кода</li>
+                            <li>Диагностика и ремонт компьютерных систем</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <section class="dark-bar fade-in">
+                <div class="container">
+                    <h2>Структура практики</h2>
+                </div>
+            </section>
+
+            <div class="content fade-in">
+                <div class="structure-timeline">
+                    <div class="timeline-item">
+                        <div class="timeline-period">2 курс, 1 семестр</div>
+                        <div class="timeline-content">
+                            <h4>Техническое обслуживание и ремонт</h4>
+                            <ul>
+                                <li>Техническое обслуживание аппаратной части (18 ч)</li>
+                                <li>Настройка программных средств (18 ч)</li>
+                            </ul>
+                        </div>
+                    </div>
+                    
+                    <div class="timeline-item">
+                        <div class="timeline-period">2 курс, 2 семестр</div>
+                        <div class="timeline-content">
+                            <h4>Продолжение технического обслуживания</h4>
+                            <ul>
+                                <li>Техническое обслуживание аппаратной части (18 ч)</li>
+                                <li>Настройка программных средств (18 ч)</li>
+                                <li>Аппаратное обеспечение (18 ч)</li>
+                                <li>Установка ПО (18 ч)</li>
+                            </ul>
+                        </div>
+                    </div>
+                    
+                    <div class="timeline-item">
+                        <div class="timeline-period">3 курс</div>
+                        <div class="timeline-content">
+                            <h4>Проектирование цифровых систем</h4>
+                            <ul>
+                                <li>Основы проектирования цифровой техники (36 ч)</li>
+                                <li>Разработка и прототипирование (36 ч)</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <section class="dark-bar fade-in">
+                <div class="container">
+                    <h2>Условия реализации</h2>
+                </div>
+            </section>
+
+            <div class="content fade-in">
+                <div class="implementation">
+                    <h3>Материально-техническое обеспечение</h3>
+                    <ul>
+                        <li>Лаборатория компьютерных сетей и телекоммуникаций</li>
+                        <li>Лаборатория сборки и эксплуатации вычислительной техники</li>
+                        <li>Лаборатория микропроцессоров и микропроцессорных систем</li>
+                        <li>Лаборатория периферийных устройств</li>
+                    </ul>
+                    
+                    <h3>Организация образовательного процесса</h3>
+                    <ul>
+                        <li>Максимальная учебная нагрузка - 36 часов в неделю</li>
+                        <li>Консультации (групповые и индивидуальные)</li>
+                        <li>Практика проводится концентрированно</li>
+                    </ul>
+                </div>
+            </div>
+        </main>
+
+        <footer class="fade-in">
+      <div class="footer-content">
+        <p>Угличский индустриально-педагогический колледж<br>
+        Специальность 09.02.01<br>
+        Подготовка квалифицированных специалистов в области разработки, настройки и обслуживания компьютерных систем и комплексов в УИПК.</p>
+        <ul class="footer-links">
+          <li><a href="index.html">Главная</a></li>
+          <li><a href="achiev.html">Достижения</a></li>
+          <li><a href="gallery.html">Фотогалерея</a></li>
+          <li><a href="act.html">Нормативные акты</a></li>
+        </ul>
+        <p>+7 (48532) 2-22-60<br>
+        <a href="mailto:upk.uglich@yarregion.ru">upk.uglich@yarregion.ru</a><br>
+        152615, Ярославская область, г. Углич, ул. Академика Опарина, д. 2</p>
+      </div>
+      <div class="container">
+      &copy; 2025 Угличский индустриально-педагогический колледж. Специальность 09.02.01 «Компьютерные системы и комплексы».
+    </div>
+    </footer>
+</div>
+</body>
+</html>
